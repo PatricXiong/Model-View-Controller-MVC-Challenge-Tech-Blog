@@ -1,87 +1,74 @@
-# Model-View-Controller-MVC-Challenge-Tech-Blog
-CMS-style blog site similar to a Wordpress site
-# Model-View-Controller-MVC-Tech-Blog
+# MVC-Tech-Blog
 
-[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+## Description
 
-[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
-
-[![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This project is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This site was built completely from scratch and deployed to Heroku. This app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
 ## Table of Contents
 
-1. [Title](#title)
-2. [Description](#Description)
-3. [Installation](#Installation)
-4. [Technologies](#Technologies)
-5. [Collaboration](#Collaboration)
-6. [Steps](#Steps)
-7. [Walkthrough](#Walkthrough)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [Badges](#badges)
+- [License](#license)
+- [Copyright](#copyright)
+- [Testing](#testing)
 
-# Description
+## Installation
 
-- AS A developer who writes about tech
-  I WANT a CMS-style blog site
-  SO THAT I can publish articles, blog posts, and my thoughts and opinions
+For installation of the dependencies, please run the following command in the terminal:
 
-# Installation
+```
+npm i, run mysql terminal and run source schema, node run seed
+```
 
-- To install: node employee.js
+## Usage
 
-## Links
+To start the application click the following link:
+https://polar-lowlands-86170.herokuapp.com/
 
-- https://github.com/MelElson/Model-View-Controller-MVC-Tech-Blog
-- https://tranquil-basin-60839.herokuapp.com/login
+Alternately type the following command in the terminal:
 
--
+```
+npm start
+```
 
-# Technologies
+## Credits
 
-The site uses Javascript, Node,js, Inquirer, Express, MYSQL
+None
 
-# Collaboration
+## License
 
-Pulls are encouraged. Any changes document.
+![License badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
-# Steps
+## Badges
 
-GIVEN a CMS-style blog site
-WHEN I visit the site for the first time
-THEN I am presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in
-WHEN I click on the homepage option
-THEN I am taken to the homepage
-WHEN I click on any other links in the navigation
-THEN I am prompted to either sign up or sign in
-WHEN I choose to sign up
-THEN I am prompted to create a username and password
-WHEN I click on the sign-up button
-THEN my user credentials are saved and I am logged into the site
-WHEN I revisit the site at a later time and choose to sign in
-THEN I am prompted to enter my username and password
-WHEN I am signed in to the site
-THEN I see navigation links for the homepage, the dashboard, and the option to log out
-WHEN I click on the homepage option in the navigation
-THEN I am taken to the homepage and presented with existing blog posts that include the post title and the date created
-WHEN I click on an existing blog post
-THEN I am presented with the post title, contents, post creator’s username, and date created for that post and have the option to leave a comment
-WHEN I enter a comment and click on the submit button while signed in
-THEN the comment is saved and the post is updated to display the comment, the comment creator’s username, and the date created
-WHEN I click on the dashboard option in the navigation
-THEN I am taken to the dashboard and presented with any blog posts I have already created and the option to add a new blog post
-WHEN I click on the button to add a new blog post
-THEN I am prompted to enter both a title and contents for my blog post
-WHEN I click on the button to create a new blog post
-THEN the title and contents of my post are saved and I am taken back to an updated dashboard with my new blog post
-WHEN I click on one of my existing posts in the dashboard
-THEN I am able to delete or update my post and taken back to an updated dashboard
-WHEN I click on the logout option in the navigation
-THEN I am signed out of the site
-WHEN I am idle on the site for more than a set time
-THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![NPM](https://img.shields.io/badge/npm-yellow?style=for-the-badge&logo=NPM)
+![Heroku](https://img.shields.io/badge/Heroku-purple?style=for-the-badge&logo=heroku)
+![EXPRESS.js](https://img.shields.io/badge/express-JS-yellow?style=for-the-badge&logo=experts-exchange)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![Sequelize](https://img.shields.io/badge/sequelize-323330?style=for-the-badge&logo=sequelize&logoColor=blue)
+![Handlebars](https://img.shields.io/badge/Handlebars.js-f0772b?style=for-the-badge&logo=handlebarsdotjs&logoColor=black)
 
-### Techblog Screenshot
+## How to Contribute
 
-![Demo of App](./images/techblog.png)
-![Demo of App](./images/techblogcomment.png)
+Tim Fleck<br />
+Full-Stack Developer<br />
+![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)[CHUCA78](https://github.com/Chuca78) <br />
+tfleck78@gmail.com
+
+## Copyright
+
+Copyright 2022 Tim Fleck
+
+## Testing
+
+For running the tests on application, please run the following command:
+
+```
+N/A
+```
