@@ -24,18 +24,11 @@ npm i, run mysql terminal and run source schema, node run seed
 
 ## Usage
 
-To start the application click the following link:
-https://polar-lowlands-86170.herokuapp.com/
-
-Alternately type the following command in the terminal:
+Still in development...
 
 ```
 npm start
 ```
-
-## Credits
-
-None
 
 ## License
 
@@ -54,16 +47,6 @@ None
 ![Sequelize](https://img.shields.io/badge/sequelize-323330?style=for-the-badge&logo=sequelize&logoColor=blue)
 ![Handlebars](https://img.shields.io/badge/Handlebars.js-f0772b?style=for-the-badge&logo=handlebarsdotjs&logoColor=black)
 
-## How to Contribute
-
-Tim Fleck<br />
-Full-Stack Developer<br />
-![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)[CHUCA78](https://github.com/Chuca78) <br />
-tfleck78@gmail.com
-
-## Copyright
-
-Copyright 2022 Tim Fleck
 
 ## Testing
 
